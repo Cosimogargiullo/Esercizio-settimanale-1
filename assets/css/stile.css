@@ -1,0 +1,169 @@
+body {
+    color: #393d41;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h1, main > h3, div h3 {
+    color: #25a2c3;
+}
+
+h1, h3, section h3, footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    padding: 0 2rem;
+    line-height: 1.65;
+}
+
+
+/* HEADER */
+
+header {
+    background-color: black;
+}
+
+header img {
+    width: 33%;
+    padding: 2rem;
+}
+
+/* ARTICLE */
+
+article {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding: 2.5rem 0 5rem 0;
+    margin-bottom: 3rem;
+}
+
+h1, footer h2 {
+    font-size: 2.5rem;
+    padding: 1rem;
+}
+
+article p {
+    margin-bottom: 3.5rem;
+}
+
+article a {
+    background-color: #f04c2f;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    padding: 1rem 2rem 1rem 2.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/* MAIN */
+
+h3 {
+    padding: 3rem 0 1rem 0;
+}
+
+main img {
+    border-radius: 100%;
+    margin-top: 2rem;
+    width: 75%;
+}
+
+/* SECTION*/
+
+section {
+    background-color: #e22d0e;
+    color: white;
+    line-height: 1.65;
+    margin: 3.5rem 0  3rem 0;
+    padding-bottom: 2rem;
+}
+
+section h3 {
+    font-size: 2rem;
+}
+
+blockquote {
+    padding: 0 2rem;
+    font-weight: 300;
+    font-style: italic;
+    padding-bottom: 1rem;
+}
+
+cite {
+    padding: 1rem 2rem 0 2rem;
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+section p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+
+
+/* ASIDE */
+
+aside img {
+    width: 100%;
+}
+
+section p {
+    font-size: 1rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+aside div {
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    width: 90%;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #25a2c3;
+    color: #c8e7f0;
+    padding-bottom: 4rem;
+}
+
+footer a:link, footer a:visited {
+    
+    color: #c8e7f0;
+}
+
+footer h2 {
+    color: white;
+    padding: 2.5rem 0 2.5rem 0;
+}
+
+ul {
+    line-height: 1.65;
+    list-style-type: none;
+    padding: 0 2rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: collapse;
+    border: 0.5px solid #c8e7f0;
+    width: 13rem;
+}
+
+.fas {
+    color: white;
+}
+
